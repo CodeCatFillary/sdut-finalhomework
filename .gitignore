@@ -1,3 +1,20 @@
-/.vscode
-/backend/target
+# --- 前端 (Vite/Node) ---
 /frontend/node_modules
+/frontend/dist
+/frontend/.vite
+.DS_Store
+
+# --- 后端 (Maven) ---
+/backend/target
+.settings/
+.classpath
+.project
+.idea/
+
+# --- 通用 ---
+*.log
+*.tmp
+*.bak
+.vscode/
+.env.local
+.env.*.local
