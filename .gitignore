@@ -1,25 +1,8 @@
-
-# --- 前端 (Vite/Node) ---
-/frontend/node_modules
-/frontend/dist
-/frontend/.vite
-.DS_Store
-
-# --- 后端 (Maven) ---
-/backend/target
-.settings/
-.classpath
-.project
+target/
+*.iml
 .idea/
-
-# --- 通用 ---
-*.log
-*.tmp
-*.bak
 .vscode/
-.env.local
-.env.*.local
-
-/.vscode
-/target
-/frontend/node_modules
+uploads/
+logs/
+*.log
+.DS_Store
