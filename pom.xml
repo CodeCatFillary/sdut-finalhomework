@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.example</groupId>
+    <groupId>com.example.govservice</groupId>
     <artifactId>government-service-backend</artifactId>
     <version>1.0.0</version>
     <name>government-service-backend</name>
