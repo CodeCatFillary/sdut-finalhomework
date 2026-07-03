@@ -1,3 +1,18 @@
+# 政务服务管理系统 Spring Boot 后端
+
+## 数据库迁移报错先看这里
+
+如果启动时报错 `Table sys_user does not exist` 或 `Migration V2__seed_data.sql failed`  先执行下面命令重建干净数据库
+
+```powershell
+docker compose down -v
+docker compose up -d
+mvn clean spring-boot:run
+```
+
+详细说明见 `FLYWAY_DB_FIX.md`
+
+
 # 政务服务管理系统后端
 
 技术栈
